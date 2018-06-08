@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/colorchange.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div style="width:800px; margin-left:auto; margin-right:auto;">
+        <div class="menustyle">
+            <ul style="width: 87%; margin: auto;">
+                <a href="../index.php">
+                    <li class="menuopen">
+                        <div id="home"> Strona Glowna</div>
+                    </li>
+                </a>
+                <a href="../about.html">
+                    <li class="menu">
+                        <div id="about" style="color:#19441b">O nas</div>
+</li>
+                </a>
+                <li class="menu">
+                    <div id="crew">Crew</div>
+                </li>
+                <li class="menu">
+                    <div id="events">Events</div>
+                </li>
+                <li class="menuclose">
+                    <div id="contact">Kontakt</div>
+                </li>
+            </ul>
+        </div>
+        <div style="clear:both;" />
+        <div style=" height:20px;" >
+            </div>
+        <div class="workstation">
+        </div>
+        <div class="footer">
+
+        </div>
+
+    </div>
+     </div><div id="face-slider">
+	<div id="tab"></div>
+	<div id="face-code"><div class="fb-like-box" data-href="https://www.facebook.com/weststance" 
+        data-colorscheme="dark" data-show-faces="true" data-header="true"  ></div>
+    <div id="fb-root"></div></div>
+</div>
+    
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        a = true;
+        $(function () {
+                $('#face-slider').click(
+                    function () {if (a == true){  $('#face-slider').stop().animate({ "right": "0" }, 1000); 
+                        a = false;
+                    }
+                    else if (a == false) {
+                        $('#face-slider').stop().animate({ "right": "-302px" }, 1000); a = true;
+                    }
+                    });
+            });
+</script>
+    <script src="Scripts/colorchange.js"></script>
+</body>
+</html>

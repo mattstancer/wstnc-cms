@@ -1,0 +1,75 @@
+﻿//$c1='<!DOCTYPE html>
+//<html xmlns="http://www.w3.org/1999/xhtml">
+//<head>
+//    <title></title>
+//</head>
+//<body>
+//    <?php
+//        $file= __FILE__;';
+//     $c2='$adres=';
+//     $c23="'http://'";
+//     $c24='.$_SERVER[';
+//     $c25="'SERVER_NAME'].";
+//    $c26='$_SERVER[';
+//    $c27="'REQUEST_URI'];";
+
+//         $c3 = '$id_artykul = (int)basename($file, ".php").PHP_EOL;
+//        $link = mysql_connect("localhost", "root", "");
+//     $db="weststance";
+//    mysql_select_db($db,$link);
+//    $result= (mysql_query("SELECT `tresc` from `artykuly` where `artykuly`.`id_artykul` = ';
+//    $c28="'";
+//    $c29='$id_artykul';
+//    $c30="'";
+//    $c31='"));
+//        $wiersz = mysql_fetch_assoc($result);';
+//        $c4="echo('<p>'.";
+//        $c5= '$wiersz["tresc"].';
+//        $c6="'</p>');";
+//        $c32='$result='; 
+//        $c7='(mysql_query("SELECT `sciezka` from `pliki` join `artykuly` on `pliki`.`id_artykul` = `artykuly`.`id_artykul` where `artykuly`.`id_artykul` =';
+//        $c8="'";
+//        $c33='$id_artykul';
+//        $c34="'";
+//        $c9='"));
+//       while( $wiersz = mysql_fetch_assoc($result))
+//        {';
+//      $c10=  "echo('";
+//      $c11='<img src="';
+//      $c12="'.";
+//      $c35='$wiersz[';
+//      $c13='"sciezka"].';
+//      $c14="'";
+//      $c15='" style="width:50%"/><br />';
+//      $c16="');
+        
+      
+//    }
+//  echo '<div class=";
+//  $c17='"fb-comments" data-href="';
+//  $c18="'.";
+//  $c36='$adres.';
+//  $c37="'";
+//  $c19='" data-numposts="3" data-colorscheme="light"></div>';
+//  $c20="';
+//    ?>
+//        <div id=";
+//       $c21= '"fb-root"></div>
+//<script>(function(d, s, id) {
+//  var js, fjs = d.getElementsByTagName(s)[0];
+//  if (d.getElementById(id)) return;
+//  js = d.createElement(s); js.id = id;
+//  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.0";
+//  fjs.parentNode.insertBefore(js, fjs);
+//}(document,';
+//$c22="
+//'script', 'facebook-jssdk'));</script>
+//</body>
+//</html>";
+//$br="\n";
+//$content=$c1.$c2.$c23.$c24.$c25.$c26.$c27.$br.
+//$c3.$c28.$c29.$c30.$c31.$br.$c4.$c5.
+//$c6.$br.$c32.$c7.$c8.$c33.$c34.
+//$c9.$c10.
+//$c11.$c12.$c35.$c13.$c14.$c15.
+//$c16.$c17.$c18.$c36.$c37.$c19.$c20.$c21.$c22;

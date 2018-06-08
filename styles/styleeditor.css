@@ -1,0 +1,13 @@
+﻿#italic {
+    font-style: italic;
+    margin-left:0px;
+}
+#bold {
+    font-weight: bold;
+    float:left;
+}
+#mareadiv {
+width:560px;
+text-align:justify;
+float:left;
+}
